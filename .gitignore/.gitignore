@@ -1,0 +1,16 @@
+# ===== C++ Build Files =====
+*.out
+*.app
+*.o
+*.obj
+*.pdb
+
+# ===== Build Folder =====
+build/
+
+# ===== VS Code =====
+.vscode/
+
+# ===== OS Files =====
+.DS_Store
+Thumbs.db
