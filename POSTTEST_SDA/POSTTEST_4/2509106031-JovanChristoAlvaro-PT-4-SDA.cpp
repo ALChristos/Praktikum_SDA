@@ -464,6 +464,8 @@ int main(){
         cout<<"Masukan Pilihan Anda: ";
         cin>>pilihan;
 
+        cin.ignore(100, '\n');
+
         switch(pilihan){
             case 1: 
                 tambah_hewan(hwn, banyak_hewan); 
